@@ -1,0 +1,21 @@
+{
+    "name": "pschriner/fal-performance",
+    "type": "typo3-cms-extension",
+    "version": "1.0.0",
+    "description": "Backports of performance improvements for FAL",
+    "homepage": "http://typo3.org",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "require": {
+        "typo3/cms-core": ">=6.2.27,<7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PSchriner\\FalPerformance\\": "Classes"
+        }
+    },
+    "replace": {
+        "fal_performance": "*"
+    }
+}
